@@ -1,2 +1,0 @@
-PanKasi.github.io
-aaaaaaaaaaaaaaaaaaaaaaaaaa
