@@ -6,7 +6,50 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  @media screen and (min-width: 1000px) {
+  div.hide {
+    display: none;
+  }
+}
+@media screen and (max-width: 999px) {
+  div.hide2 {
+    display: none;
+  }
+}
+</style>
 <body>
+<div class="hide">
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="mapPage.html" >Map</a></li>
+  </ul>
+</div>
 
 <div class="w3-display-container" style="margin-bottom:50px">
   <img src="Μικρολίμανο.png" style="width:100%">
